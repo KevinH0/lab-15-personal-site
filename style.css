@@ -1,0 +1,82 @@
+body, html{
+	height: 100%;
+	background-color: darkblue;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Dosis', sans-serif;
+}
+.Web{
+	background-image: url("Blank");
+	height: 30%;
+	background-position: center;
+	background-size: no-repeat;
+	background-size: cover;
+	position: relative;
+	background-color: #000000;
+}
+
+.text{
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-family: 'Major Mono Display', monospace;
+	font-weight: 200;
+	color: white;
+}
+
+div.stuff{
+	width: 400px;
+	word-wrap: break-word;
+	overflow: auto;
+	text-align: center;
+	border-width: 1px;
+	border-style: dotted;
+	border-color: black;
+	float: left;
+	margin: 10px;
+	padding: 5px;
+}
+div#first{
+	background-color: #B2B0C1;
+}
+div#second{
+	background-color: #9997A0;
+}
+div#third{
+	background-color: #B1A39C;
+	text-align: center;
+}
+div#fourth{
+	background-color: #F2EFEB;
+}
+div#fifth{
+	background-color: #B48373;
+}
+#navbar{
+	overflow: hidden;
+	background-color: #260A03;
+}
+#navbar a{
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	font-family: 'Dosis';
+	text-align: center;
+	padding: 14px;
+	text-decoration: none;
+}
+#navbar a:hover{
+	color: green;
+	background-color: white;
+}
+.sticky{
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+.sticky + .content{
+	padding-top: 100px;
+}
