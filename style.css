@@ -6,7 +6,7 @@ h1, h2, h3, h4, h5, h6{
 	font-family: 'Dosis', sans-serif;
 }
 .Web{
-	background-image: url("Blank");
+	background-image: url("ImgSquares.PNG");
 	height: 30%;
 	background-position: center;
 	background-size: no-repeat;
@@ -57,18 +57,35 @@ div#fifth{
 }
 #navbar{
 	overflow: hidden;
-	background-color: #260A03;
+	background-color: #94F2Af;
 }
 #navbar a{
 	float: left;
 	display: block;
-	color: #f2f2f2;
+	color: #15FA22;
 	font-family: 'Dosis';
 	text-align: center;
 	padding: 14px;
 	text-decoration: none;
 }
 #navbar a:hover{
+	color: green;
+	background-color: white;
+}
+#button{
+	overflow: hidden;
+	background-color: #500400;
+}
+#button a{
+	float: left;
+	display: block;
+	color: #108000;
+	font-family: 'Dosis';
+	text-align: center;
+	padding: 14px;
+	text-decoration: none;
+}
+#button a:hover{
 	color: green;
 	background-color: white;
 }
