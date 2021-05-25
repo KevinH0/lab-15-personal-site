@@ -57,7 +57,7 @@ div#fifth{
 }
 #navbar{
 	overflow: hidden;
-	background-color: #260A03;
+	background-color: #600080;
 }
 #navbar a{
 	float: left;
@@ -69,6 +69,23 @@ div#fifth{
 	text-decoration: none;
 }
 #navbar a:hover{
+	color: green;
+	background-color: white;
+}
+#button a{
+	overflow: hidden;
+	background: green;
+}
+#button a{
+	float: center;
+	display: block;
+	color: #000000;
+	font-family: 'Dosis';
+	text-align: center;
+	padding: 14px;
+	text-decoration: none;
+}
+#button a:hover{
 	color: green;
 	background-color: white;
 }
